@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://wivity.com/.well-known/*
+host: https://wivity.com
+note: Every path returned HTTP 202 with a SiteGround anti-bot captcha interstitial
+  (redirect to /.well-known/sgcaptcha/), so no well-known documents could be
+  retrieved. No 200 responses; nothing saved as raw files.
+documents:
+- path: /.well-known/security.txt
+  status: 202
+- path: /.well-known/openid-configuration
+  status: 202
+- path: /.well-known/oauth-authorization-server
+  status: 202
+- path: /.well-known/api-catalog
+  status: 202
+- path: /.well-known/ai-plugin.json
+  status: 202

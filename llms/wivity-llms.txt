@@ -1,0 +1,24 @@
+# Wivity
+
+> Wivity Inc. is a Web3 governance consultancy that helps organizations form blockchain consortia and infrastructure DAOs, design Web3 infrastructure, and optimize decentralized governance through its Wivity Governance framework. Partners referenced on its site include the SunSpec Alliance and OMA3. Wivity is a 500 Global portfolio company and does not publish a public API, developer portal, or client libraries.
+
+## Company
+
+- [Website](https://www.wivity.com/): Company homepage (note: bot-gated by a SiteGround captcha)
+- [About Us](https://www.wivity.com/about-us/): Company background
+- [Contact](https://www.wivity.com/contactus/): Contact page
+- [GitHub Organization](https://github.com/wivity): Wivity Inc. on GitHub (no public repositories)
+
+## Services
+
+- [Consortium and DAO Formation](https://www.wivity.com/consortium-and-dao-formation/): Forming blockchain consortia and infrastructure DAOs
+- [Web3 Infrastructure Design](https://www.wivity.com/web3-infrastructure-design/): Design and development of Web3 infrastructure
+- [Decentralized Governance Optimization](https://www.wivity.com/decentralized-governance-optimization/): Improving decision-making for consortia and DAOs
+- [Blockchain Consortia](https://www.wivity.com/blockchain-consortia/): Solutions for blockchain consortia
+- [Traditional Consortia](https://www.wivity.com/traditional-consortiums/): Solutions for traditional consortia
+- [Infrastructure DAO](https://www.wivity.com/infrastructure-dao/): Solutions for infrastructure DAOs
+
+## API Evangelist Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/wivity/refs/heads/main/apis.yml): Machine-readable index of this profile
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/wivity/refs/heads/main/security/wivity-domain-security.yml): Probed TLS/DNS security posture for wivity.com

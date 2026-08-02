@@ -1,7 +1,23 @@
 aid: wivity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wivity.png
 name: Wivity
-description: Wivity is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wivity Inc. is a Web3 governance consultancy that helps organizations
+  form blockchain consortia and infrastructure DAOs, design Web3 infrastructure,
+  and optimize decentralized governance through its Wivity Governance framework,
+  drawing on experience running standards working groups for organizations like
+  the SunSpec Alliance and OMA3. A 500 Global portfolio company, Wivity does not
+  currently publish a public API, developer portal, or client libraries.
 url: https://raw.githubusercontent.com/api-evangelist/wivity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Web3
+- Governance
+- Blockchain
+- DAO
+- Consortia
+- Standards
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +44,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://wivity.com
+  url: https://www.wivity.com
+- type: GitHubOrganization
+  url: https://github.com/wivity
+- type: Contact
+  url: https://www.wivity.com/contactus/
+- type: LLMsTxt
+  url: llms/wivity-llms.txt
+- type: DomainSecurity
+  url: security/wivity-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
